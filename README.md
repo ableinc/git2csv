@@ -11,8 +11,8 @@ cp example.env .env
 2. Add necessary fields. The default fields are good to start with.
 ```bash
 GIT_PROJECT_DIRECTORY=/path/to/git/repo
-IGNORE_FILES=.env
-IGNORE_DIRS=.git,.vscode
+IGNORE_FILES=.env,package-lock.json
+IGNORE_DIRS=.git,.vscode,node_modules
 SAVE_DIRECTORY=training_data
 SKIP_EMPTY_LINES=true
 ```
